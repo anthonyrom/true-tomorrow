@@ -3,13 +3,21 @@
     "title": "True Tomorrow - Base16",
     "description": "Completely un-edited Tomorrow from Base16. No modifications whatsoever.",
     "homepage": "https://github.com/anthonyrom/true-tomorrow",
-    "version": "1.2.0",
-    "author": "Anthony Romaniello <aromaniello70@gmail.com> (http://awro.xyz)",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/anthonyrom/true-ocean.git"
+    },
+    "version": "1.3.0",
+    "author": {
+        "name": "Anthony Romaniello",
+        "url": "https://github.com/anthonyrom"
+    },
     "license": "MIT",
     "theme": {
         "file": "theme.less",
         "dark": true,
         "addModeClass": true
     },
+    "engines": {"brackets": ">=0.34.0" },
     "keywords": ["theme, base16, tomorrow"]
 }
